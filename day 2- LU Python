@@ -1,0 +1,580 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "#Basic Python syntax ,\n",
+    "#variables\n",
+    "#operators"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "use of Back slash :"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "hello everyone\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"hello \\\n",
+    "everyone\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Tripple codes"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      " HI\n",
+      "We can write by using triple quotes as well\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"\"\" Hi everyone \n",
+    "We can write by using triple quotes as well\"\"\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "string innside the quotes"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Hello everyone i'm loving the sessions \n"
+     ]
+    }
+   ],
+   "source": [
+    "print (\"Hello everyone i'm loving the sessions \")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Escape sequence of string "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      " hello \n",
+      " this is next line (by using back slash n) \n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\" hello \\n this is next line (by using back slash n) \")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "formated output"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "the name of the student is Aishwraya \n",
+      "Age =  21 \n",
+      "marsk=  90\n"
+     ]
+    }
+   ],
+   "source": [
+    "name = 'Aishwraya'\n",
+    "age =\"21\"\n",
+    "marks= 90\n",
+    "print(\"the name of the student is\", name , \"\\nAge = \" , age , \"\\nmarsk= \" ,marks)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Variable = linking of data to a name . \n",
+    "single value can be saved by different veriables by same adreess. example below ."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Rules :\n",
+    "1.A keyword cannot be used as variable\n",
+    "2.it can contain letters , numbers ,underscore \n",
+    "3.case sensitive\n",
+    "4. variable can not start with no.\n",
+    "5. variable is assigned to data by using python operator .\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "140734547862192 \n",
+      "this adress of X is same as Y\n",
+      " 140734547862192\n"
+     ]
+    }
+   ],
+   "source": [
+    "x= 10\n",
+    "y=10\n",
+    "\n",
+    "print(id(x), \"\\nthis adress of X is same as Y\\n\",id (y))"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Types of operator \n",
+    "\n",
+    "1. Arethmatic   \n",
+    "    ** , * ,/,%, +, -,//"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "1024"
+      ]
+     },
+     "execution_count": 22,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "4**5"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "20"
+      ]
+     },
+     "execution_count": 23,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "4*5"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 31,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "102.66666666666667"
+      ]
+     },
+     "execution_count": 31,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "308 /3"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 27,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "19"
+      ]
+     },
+     "execution_count": 27,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "14+5\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 26,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "130"
+      ]
+     },
+     "execution_count": 26,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "230-100"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 29,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "33"
+      ]
+     },
+     "execution_count": 29,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "100//3\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "2.Comparison operator . (TRue / false)\n",
+    "    == , < ,>  ,<= ,> = 1="
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 38,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "False"
+      ]
+     },
+     "execution_count": 38,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a=5\n",
+    "c=2\n",
+    "a<=c\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 36,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 36,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a=10\n",
+    "b=20\n",
+    "a!=b"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "3.Assignment Operrator\n",
+    "    = , += ,-= , *= ,/= ,**="
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 44,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "sum is =  30\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=10\n",
+    "b=20\n",
+    "a+=b\n",
+    "print(\"sum is = \",a)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "4. Bitwise Operator\n",
+    "    | , &, ~ ,^ , << , >>\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 46,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'0b1100100'"
+      ]
+     },
+     "execution_count": 46,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a=100\n",
+    "bin(a)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "5.Logical Operator\n",
+    "    and , or not\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 49,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 49,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a= 10\n",
+    "b=6\n",
+    "a>b and 10 >5"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 53,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "it will not give erros as first condtion we get as false so no need to check the secons so results s false\n"
+     ]
+    }
+   ],
+   "source": [
+    "a= 10\n",
+    "b=6\n",
+    "a<b and M >5\n",
+    "print(\"it will not give error as first condtion we get as false so no need to check the secons so results s false\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 54,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 54,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a= 10\n",
+    "b=6\n",
+    "a>b or 10 <5"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Operator precdedance . \n",
+    "Operators\t Meaning\n",
+    "()\tParentheses\n",
+    "**\tExponent\n",
+    "+x, -x, ~x\tUnary plus, Unary minus, Bitwise NOT\n",
+    "*, /, //, %\tMultiplication, Division, Floor division, Modulus\n",
+    "+, -\tAddition, Subtraction\n",
+    "<<, >>\tBitwise shift operators\n",
+    "&\tBitwise AND\n",
+    "^\tBitwise XOR\n",
+    "|\tBitwise OR\n",
+    "\n",
+    "==, !=, >, >=, <, <=, is, is not, in, not in\tComparisons, Identity, Membership operators\n",
+    "not\tLogical NOT\n",
+    "and\tLogical AND\n",
+    "or\tLogical OR"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 55,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "90"
+      ]
+     },
+     "execution_count": 55,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "10 +20*5 -20"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 56,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "18.0"
+      ]
+     },
+     "execution_count": 56,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "3-30/6+20"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.7.6"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 4
+}
